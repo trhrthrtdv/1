@@ -1,0 +1,85 @@
+@media only screen and (max-width: 992px){
+    .customGrid {
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+    }
+    .navbar-nav.custom_menu {
+        margin-top: 40px;
+    }
+    .bannerSecton h1 {
+        font-size: 30px;
+    }
+    .bannerSecton p {
+        font-size: 16px;
+    }
+    .topBar ul li a {
+        font-size: 16px;
+    }
+    #midSection h2 {
+        font-size: 30px;
+    }
+    .heading p {
+        font-size: 18px;
+        padding: 20px 0;
+    }
+    .banner .conten h5{
+        font-size: 50px;
+    }
+    .banner .conten p{
+        font-size: 18px;
+    }
+    .card-content h4{
+        font-size: 50px;
+    }
+    .card-content p{
+        font-size: 18px;
+    }
+    .card_list{
+        max-width: 768px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+    .card_list:hover{
+        max-width: 768px;
+        transition: .5s;
+        transform: scale(1.0);
+    }
+}
+@media only screen and (max-width: 768px){
+    .item_area ul {
+        grid-template-columns: auto;
+    }
+    .item_area ul li {
+        font-size: 16px;
+    }
+    .ChemicalHeading {
+        padding-bottom: 30px;
+    }
+    .box_area {
+        padding: 30px;
+    }
+    .box_area .custombtn {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .banner .conten h5{
+        font-size: 30px;
+    }
+    .banner .conten p > br{
+        display: none;
+    }
+    .card-content h4{
+        font-size: 30px;
+    }
+    .card-content p > br{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .customGrid {
+        grid-template-columns: auto;
+        
+}
+
