@@ -630,3 +630,198 @@ ul{
 .card_gallery {
     padding-bottom: 70px;
 }
+
+#contact-us {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.backColor {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px 0;
+}
+.headh1 h1 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 112.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.our-contact-map iframe {
+    width: 100%;
+    height: 900px;
+}
+.addreass h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.addreass p {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.contactBook p {
+    margin-bottom: 0;
+}
+.contactBook {
+    margin-bottom: 25px;
+}
+.middib {
+    display: flex;
+    align-items: center;
+}
+
+.inputfomr input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFF;
+}
+.ourContactFrom {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.inputfomr textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-top: 33px;
+    margin-bottom: 30px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.submit-form input {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 15px 60px;
+    border-radius: 5px;
+    
+}
+
+.inputfomr input::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+
+.inputfomr textarea::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+
+.sociladib ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.sociladib ul li a {
+    font-size: 25px;
+    color: #fff;
+}
+
+.row.footer {
+    padding-top: 50px;
+}
+.row.footer p {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 9px;
+    color: #FFFFFF;
+}
+.f-right {
+    text-align: right;
+}
+
+
+.subchild {
+    position: relative;
+}
+.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #FFFFFF;
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    z-index: 9;
+    width: 277px;
+    display: none;
+}
+.sub-menu li a {
+    font-family: Gotham!important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 17px;
+    color: #4DA44B;
+}
+.sub-menu li {
+    margin-bottom: 10px;
+}
+
+.custom_menu .sub-menu li ul li a {
+    font-family: Gotham !important;
+    font-size: 15px ;
+    line-height: 18px ;
+    color: #939191 !important;
+}
+.sub-menu li ul li {
+    margin-bottom: 0;
+}
+.sub-menu::after {
+    content: '';
+    display: block;
+    clear: both;
+    position: absolute;
+    z-index: 9999;
+    top: -19px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid var(--green);
+    left: 27px;
+}
+.custom_menu li:hover .sub-menu {
+    display: block;
+}

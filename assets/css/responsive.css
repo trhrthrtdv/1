@@ -75,6 +75,13 @@
     .card-content p > br{
         display: none;
     }
+    .our-contact-map iframe {
+        width: 100%;
+        height: 400px;
+    }
+    .f-right {
+        text-align: left;
+    }
 }
 
 @media only screen and (max-width: 480px){
