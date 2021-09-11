@@ -825,3 +825,7 @@ ul{
 .custom_menu li:hover .sub-menu {
     display: block;
 }
+
+.emailFooter {
+    margin-top: 57px;
+}
