@@ -1,6 +1,6 @@
 
-// A $( document ).ready() block.
-(function($){
+
+(function($) {
 
     $('.ourSliderArea').slick({
         centerMode: true,
@@ -31,4 +31,4 @@
 
 
 
-})(jQuery);
+    })(jQuery);
