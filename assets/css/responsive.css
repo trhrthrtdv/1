@@ -85,6 +85,9 @@
 }
 
 @media only screen and (max-width: 480px){
+    .midSectionArea {
+        padding: 0 10px;
+    }
     .customGrid {
         grid-template-columns: auto;
         

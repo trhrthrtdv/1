@@ -856,3 +856,40 @@ ul{
     background-color: dodgerblue;
     text-decoration: none;
 }
+
+.navbar-nav.custom_menu li {
+    margin-left: 20px;
+}
+
+#homeSlider .carousel-control-next, #homeSlider .carousel-control-prev{
+
+    position: inherit!important;
+}
+.col-6.to-right button {
+    margin-left: auto;
+}
+.col-6.to-left {
+    padding-left: 0;
+}
+.navbar-nav.custom_menu  li  a {
+    font-weight: normal;
+    transition: 1s;
+    border-bottom: 2px solid transparent;
+   
+}
+.navbar-nav.custom_menu  li:hover  a {
+    border-bottom: 2px solid green;
+    transition: 1s;
+    border-radius: 50px;
+}
+.navbar-nav.custom_menu li  ul li:hover  a{
+    font-weight: normal;
+    transition: 1s;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-nav.custom_menu li  ul li  a{
+    font-weight: normal;
+    transition: 1s;
+    border-bottom: 2px solid transparent!important;
+}
