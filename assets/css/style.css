@@ -872,24 +872,22 @@ ul{
     padding-left: 0;
 }
 .navbar-nav.custom_menu  li  a {
-    font-weight: normal;
-    transition: 1s;
-    border-bottom: 2px solid transparent;
-   
+    font-weight: normal;  
+      
 }
 .navbar-nav.custom_menu  li:hover  a {
-    border-bottom: 2px solid green;
-    transition: 1s;
-    border-radius: 50px;
+    font-weight: bold;
+    
 }
 .navbar-nav.custom_menu li  ul li:hover  a{
     font-weight: normal;
-    transition: 1s;
-    border-bottom: 2px solid transparent;
+    
 }
 
 .navbar-nav.custom_menu li  ul li  a{
-    font-weight: normal;
-    transition: 1s;
-    border-bottom: 2px solid transparent!important;
+    font-weight: normal!important;
+  
 }
+
+
+
