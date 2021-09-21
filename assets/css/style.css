@@ -839,12 +839,12 @@ ul{
 
 .button-2 {
     background: white;
-    padding: 15px 30px;
-    color: dodgerblue;
-    padding: 10px;
+    padding: 10px 30px;
+    color: #EC6605;
+    /* padding: 10px; */
     cursor: pointer;
-    border-radius: 50px;
-    border-color: dodgerblue;
+    border-radius: 15px;
+    border-color: #EC6605;
     border-width: 5px;
     border-style: solid;
     box-shadow: 0px 0px 0px -10px rgba(0, 0, 0, .5);
@@ -853,7 +853,7 @@ ul{
 }
 .button-2:hover {
     color: white;
-    background-color: dodgerblue;
+    background-color: #EC6605;
     text-decoration: none;
 }
 
