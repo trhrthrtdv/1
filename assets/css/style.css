@@ -527,10 +527,10 @@ ul{
     text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
 }
 .banner .conten p{
-    max-width: 693px;
+    max-width: 950px;
     margin: auto;
     font-family: Gotham;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 200;
     line-height: 22px;
